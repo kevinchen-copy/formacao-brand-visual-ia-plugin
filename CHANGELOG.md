@@ -4,6 +4,35 @@ Todas as mudanças notáveis neste plugin serão documentadas aqui.
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), versionamento semântico [SemVer](https://semver.org/lang/pt-BR/).
 
+## [1.0.0] — 2026-05-09 — Onda 4B FINAL: Outputs específicos + 4 NOVAS skills
+
+🎉 **PLUGIN COMPLETO — 38 SKILLS DISTRIBUÍDAS EM 5 BLOCOS**
+
+### Atualizado
+- `formacao-brand-visual-ia-platform-adaptation` — alinhada à Aula 10 do M02; matriz CORE × EXECUTION (5 elementos permanentes × 7 dimensões variáveis); recusa publicar TikTok/LinkedIn por default; 3 trilhas (Figma + Claude Design + edicao)
+- `formacao-brand-visual-ia-static-ads-ecommerce` — incorpora 10 tipos do Extra-Copy Aula 05; filtra automaticamente contra Brand Guideline (recusa Direct Offer/PAS em marca quiet luxury); inclui modos UGC e Hooks short-form embutidos; handoff Figma pra montagem final do ad
+
+### Adicionado (4 SKILLS NOVAS)
+- `formacao-brand-visual-ia-ad-video-creator` — preenche gap crítico de "ads de vídeo Meta cold"; estrutura específica Hook+Mecanismo+Prova+Reversão+CTA da Aula 04 do Extra-Copy; 3-5 variações de Hook pra teste A/B; specs Meta + captions queimadas; pipeline image-generation + video-prompts + edicao
+- `formacao-brand-visual-ia-email-flows` — 1 skill com 3 modos (Welcome 5 emails / Abandoned 3 / Post-purchase 5 + Win-back 3); aplicada às Aulas 8-11 do Extra-Copy; output em MD pronto pra colar em Klaviyo/Mailchimp/RD Station
+- `formacao-brand-visual-ia-carrossel-estatico` — estrutura específica de carrossel (não vídeo); pipeline Claude→HTML→Figma com 8-9 frames vivos no template carousel-base; 5 tipos (Educativo/Narrativo/Product Showcase/Social Proof/Drop)
+- `formacao-brand-visual-ia-organico-diario` — calendário de 16 posts/mês (Seg/Qua/Sex/Sáb) com regra 60-30-10 + 9 tipos canônicos de post; alinhada à Aula 12 do Extra-Copy; orquestra storyboard + carrossel-estatico + image-generation + figma
+
+### Bloco 4 fechado (12 skills)
+storyboard → prompt-builder → image-generation → video-prompts → carrossel-estatico (NOVA) → static-ads-ecommerce → ad-video-creator (NOVA) → email-flows (NOVA) → organico-diario (NOVA) → catalog-coherence → edicao → platform-adaptation
+
+### 🎯 PLUGIN v1.0.0 — Status Final
+- **38 skills** distribuídas em 5 blocos (Setup / Pesquisas / Tese / Identidade Visual + Figma vivo / Produção)
+- Stack-alvo Kevin preservado em todas: **Figma + Higgsfield + Midjourney + Claude Desktop + CapCut**
+- Pipeline Claude→HTML→Figma operacional via MCP Figma
+- Brand Guideline gerado em 3 ativos sincronizados (Figma + companion MD + PDF A4)
+- Sem ChatGPT/Custom GPT/Sora/Seedream/Runway/Pika/Luma
+- Aluno capaz de produzir: fotos, vídeos, ads (estáticos + vídeo), carrosséis, emails, orgânico — TODOS os tipos de conteúdo do briefing original do Kevin
+
+### Próximo passo recomendado
+- **Onda 5 (validação cruzada)** — spot-check de 5 skills + atualizar `_Mapeamento.md` no Obsidian + criar `CHANGELOG-skills-v2.md` consolidado
+- Rodar uma marca-piloto end-to-end pra validar workflow completo
+
 ## [0.5.0] — 2026-05-09 — Onda 4A: Pipeline base de produção (6 skills)
 
 ### Atualizado
