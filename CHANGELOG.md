@@ -4,6 +4,30 @@ Todas as mudanças notáveis neste plugin serão documentadas aqui.
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), versionamento semântico [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.3.0] — 2026-05-09 — Onda 3A: Bloco 3 fundação visual (7 skills)
+
+### Adicionado
+- Skill **NOVA** `formacao-brand-visual-ia-figma-setup` — primeira do Bloco 3, cria estúdio Figma com 12 páginas mestras + Variable Collection inicial via MCP Figma. Habilita pipeline Claude→HTML→Figma de todas as skills downstream.
+
+### Atualizado
+- `formacao-brand-visual-ia-moodboard` — agora preenche Página Moodboard do Figma (não pasta MD); 3 fontes obrigatórias; técnica anti-Pinterest (extract pra esta marca); âncoras culturais nomeadas
+- `formacao-brand-visual-ia-logo-system` — 5 variações como Components vivos no Figma com Auto Layout + clear space marcado + grid de tamanhos mínimos + 5-6 usos proibidos
+- `formacao-brand-visual-ia-typography` — Text Styles vivos no Figma; taxonomia das Aulas 04-05 do M04 (6 estilos canônicos) + regra dos 3 Cs explícita; alternativa free obrigatória
+- `formacao-brand-visual-ia-color-palette` — Color Variables vivas na Variable Collection "Brand Tokens"; 4 camadas (primárias/secundárias/neutras/alertas); harmonia nomeada; acessibilidade WCAG verificada; regra 60-30-10
+- `formacao-brand-visual-ia-brand-faces` — alinhada com Aula 07 do M02 (4 caminhos A/B/C/D); 10 dimensões por brand face; alerta crítico sobre etnia explícita (anti content restriction); armadilha demográfica resolvida
+- `formacao-brand-visual-ia-voice-tone` — **REORDENADA** pra antes de photography-signature (era 3.9, agora 3.6); 2 camadas (voz permanente × tom variável por contexto); vocabulário favorito + proibido ancorado em market-mapping; 3-5 exemplos pareados on-brand × off-brand
+
+### Princípios editoriais aplicados
+- Toda skill conecta com aula(s) específica(s) do M02 (Identidade Visual) e M04 (Pilares de Design)
+- Pipeline Claude→Figma documentado em cada skill (não só MD)
+- Fontes externas atribuídas com clareza (Eva Heller, Jung, Gestalt cromática)
+- Stack-alvo Kevin preservado (sem ChatGPT, Sora, Seedream, Runway)
+
+### Próximas sub-ondas
+- **Onda 3B:** 6 skills restantes do Bloco 3 (photography-signature, videography-signature, motion-design, brand-guideline-builder, figma operação, rapid-prototyping)
+- **Onda 4:** Bloco 4 — 8 skills atualizadas + 4 skills novas
+- **Onda 5:** Validação cruzada + atualização do `_Mapeamento.md` no Obsidian
+
 ## [0.2.0] — 2026-05-09 — Onda 2: Bloco 0/1/2 (8 skills estratégicas)
 
 ### Adicionado/Atualizado
