@@ -4,6 +4,25 @@ Todas as mudanças notáveis neste plugin serão documentadas aqui.
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), versionamento semântico [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.5.0] — 2026-05-09 — Onda 4A: Pipeline base de produção (6 skills)
+
+### Atualizado
+- `formacao-brand-visual-ia-storyboard` — alinhada às 11 aulas do M03; 5 elementos obrigatórios + Triple Hook + 4 frameworks narrativos + Visual Interest 6 elementos; brief técnico downstream pra `prompt-builder`/`image-generation`/`video-prompts`/`edicao`
+- `formacao-brand-visual-ia-prompt-builder` — **MUDANÇA CRÍTICA**: skill nativa Claude Desktop que SUBSTITUI o Custom GPT do ChatGPT (Kevin não usa ChatGPT). 6 camadas (Concept → Subject → Colors+Materials → Composition → Lighting → Camera+Lens) com Lighting/Camera Signatures auto-aplicadas + tradução `↳` PT-BR
+- `formacao-brand-visual-ia-image-generation` — Brand Production Process em 5 fases; 5 métodos pra hero shot de produto; 9 hacks Nano Banana; Brand Face cref; scale awareness pra joias; **stack reduzido pra Higgsfield (default) + MJ (alternativa)**
+- `formacao-brand-visual-ia-video-prompts` — JSON estruturado em 10 campos + tradução `↳` PT-BR; "always image-to-video"; Videography Signature auto-aplicada; **stack reduzido pra Higgsfield/Veo/Kling — sem Sora/Seedream/Pika/Runway/Luma**
+- `formacao-brand-visual-ia-catalog-coherence` — usa hero shot aprovado como âncora; 90% do prompt herdado; 5 métodos (Product Swap default); checklist de coerência em 5 pontos; geração 1 por vez
+- `formacao-brand-visual-ia-edicao` — CapCut como protagonista (DaVinci como alternativa); Figma como template-source de overlays/logo/end card; stack de áudio em 3 camadas com volumes específicos; 15-20 itens de quality check pré-publicação
+
+### Princípios editoriais aplicados
+- Pipeline Claude→HTML→Figma documentado em cada skill quando aplicável
+- Stack-alvo Kevin preservado (sem ChatGPT, Sora, Seedream, Runway, Pika, Luma)
+- Prompts/JSONs em INGLÊS pra IA + tradução `↳` PT-BR pro aluno
+- Atribuição limpa de aulas-fonte do M03/M05/M06 + Extra-Ofício
+
+### Próxima sub-onda
+- **Onda 4B:** 6 skills restantes (platform-adaptation + static-ads-ecommerce atualizadas + 4 skills NOVAS — ad-video-creator + email-flows + carrossel-estatico + organico-diario)
+
 ## [0.4.0] — 2026-05-09 — Onda 3B: Bloco 3 assinaturas + consolidação (6 skills)
 
 ### Atualizado
