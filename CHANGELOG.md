@@ -4,6 +4,28 @@ Todas as mudanças notáveis neste plugin serão documentadas aqui.
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), versionamento semântico [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.4.0] — 2026-05-09 — Onda 3B: Bloco 3 assinaturas + consolidação (6 skills)
+
+### Atualizado
+- `formacao-brand-visual-ia-photography-signature` — 4 dimensões (lighting/mood/subjects/filter); Lighting Signature + Camera Signature em INGLÊS pronto pra prompt; alinhada às 15 aulas do M05
+- `formacao-brand-visual-ia-videography-signature` — 5 decisões (lighting/camera/pacing/grading/transitions); frase-prompt em inglês pra alimentar JSON image-to-video; alinhada às 10 aulas do M06
+- `formacao-brand-visual-ia-motion-design` — regra 80/20 (1 style dominante, 1 secundário); easing técnico (cubic-bezier); safe zones por aspect ratio em px; 3 antipatterns por marca
+- `formacao-brand-visual-ia-brand-guideline-builder` — **MUDANÇA ESTRUTURAL v2.0**: gera 3 ativos sincronizados (Página 2 do Figma como FONTE DE VERDADE + companion MD machine-readable + PDF A4 EXPORTADO automaticamente do Figma via MCP — não mais via weasyprint paralelo)
+- `formacao-brand-visual-ia-figma` — RENOMEADA conceitualmente pra Modo OPERAÇÃO; complementar a `figma-setup` (Modo Setup); operações sob demanda (duplicar template, montar peça, exportar, atualizar Production Log)
+- `formacao-brand-visual-ia-rapid-prototyping` — escopo CERCEADO em 3 casos onde Claude Design ganha do Figma (deck/one-pager, prototype site, exploração); SEMPRE remete pra figma quando pedido for repetitivo; Canva minimizado (só destino opcional de handoff)
+
+### Princípios editoriais aplicados
+- Figma é PROTAGONISTA absoluto — toda skill aponta pro Figma como destino final
+- Pipeline Claude→HTML→Figma documentado em cada skill
+- Frases-prompt em INGLÊS pra Lighting/Camera/Videography Signatures (vão pra prompt em IA)
+- Stack-alvo Kevin preservado (sem ChatGPT, Sora, Seedream, Runway, Pika, Luma)
+
+### Bloco 3 fechado (13 skills)
+Após Onda 3B, o Bloco 3 — Identidade Visual está completo: figma-setup → moodboard → logo-system → typography → color-palette → brand-faces → voice-tone (reordenada) → photography-signature → videography-signature → motion-design → brand-guideline-builder → figma (operação) → rapid-prototyping
+
+### Próxima onda
+- **Onda 4:** Bloco 4 — 8 skills atualizadas + 4 skills novas (`ad-video-creator`, `email-flows`, `carrossel-estatico`, `organico-diario`) + opcional `prompt-writer-marca` substituindo Custom GPT
+
 ## [0.3.0] — 2026-05-09 — Onda 3A: Bloco 3 fundação visual (7 skills)
 
 ### Adicionado
