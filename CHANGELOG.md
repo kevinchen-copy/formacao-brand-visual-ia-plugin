@@ -4,6 +4,34 @@ Todas as mudanças notáveis neste plugin serão documentadas aqui.
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), versionamento semântico [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.2.0] — 2026-05-09 — Onda 2: Bloco 0/1/2 (8 skills estratégicas)
+
+### Adicionado/Atualizado
+- Skill `formacao-brand-visual-ia-briefing-inicial` — alinhada às Aulas 1-7 do M01; capta stack do aluno; padronização editorial (Ferra/Cala como exemplos)
+- Skill `formacao-brand-visual-ia-audience-research` — 3 níveis de dor + VoC com 30+ quotes + Mapa de Schwartz com atribuição; conecta com Aulas 08-09 e 13-14 do M01
+- Skill `formacao-brand-visual-ia-market-mapping` — **REMOVIDA "Lyrae" cravada no corpo** (vazamento de outro projeto); auditoria dos 7 diferenciais virou-entrada (M01 Aula 04); 4 fases de mercado (M01 Aula 02)
+- Skill `formacao-brand-visual-ia-product-research` — Matriz Deep Dive (Marcelo Braggion / Copy Sniper) com atribuição limpa; Mecanismo Único em 5-7 passos auditáveis; 4U's pontuados; Mapa de Provas em 5 tipos (M01 Aulas 13-14)
+- Skill `formacao-brand-visual-ia-big-idea` — alinhada com tese "diferenciais viraram entrada" (M01 Aula 01) — não "morreram"; Filtros Ogilvy + SUCCESs + Regra do Um com atribuição
+- Skill `formacao-brand-visual-ia-positioning` — frase em 4 peças (PARA QUEM + O QUÊ + COMO + PARA QUE); 3 tipos de Reenquadramento (M01 Aula 10); slogan ≤7 palavras; 12 traits Sim/Não; Lei da Escada Mental (Ries & Trout)
+- Skill `formacao-brand-visual-ia-ideal-client` — F1∩F2 + auto-imagem aspiracional/evitada (M01 Aula 09); Disciplina do NÃO com 5 perfis recusados + roteiro de redirecionamento educado
+- Skill `formacao-brand-visual-ia-tribe-enemy` — alinhada com Aula 16 do M01 (autoral Kevin); 5 perguntas de descoberta + 4 perigos + 3 fórmulas de contraste + 3 peças manifesto + ritual sustentável
+
+### Removido
+- Referência a "Lyrae" como exemplo cravado em market-mapping
+- Numeração herdada do MEC ("Skill 1-9", "M0-M08") nas 8 skills
+- Menções a ChatGPT/Custom GPT, Sora, Seedream, Runway, Pika, Luma como ferramentas oficiais
+
+### Princípios editoriais aplicados
+- Toda skill cita aulas específicas do M01 (referência cruzada explícita)
+- Atribuições limpas pra frameworks externos: Schwartz, Ogilvy, Heath Brothers, Pareto, Ries & Trout, Marcelo Braggion (Copy Sniper)
+- Sem inflação de exemplos travados — exemplos vêm da marca ATIVA do aluno (não cravados na skill)
+- Stack-alvo Kevin (Figma + Higgsfield + MJ + CapCut + Claude) preservado
+
+### Próximas ondas
+- **Onda 3:** Bloco 3 — 13 skills de identidade visual + nova `figma-setup` adiantada pra início do bloco
+- **Onda 4:** Bloco 4 — 8 skills atualizadas + 4 skills novas (`ad-video-creator`, `email-flows`, `carrossel-estatico`, `organico-diario`)
+- **Onda 5:** Validação cruzada + atualização do `_Mapeamento.md` no Obsidian
+
 ## [0.1.0] — 2026-05-09 — Onda 1: Esqueleto Crítico
 
 ### Adicionado
@@ -18,11 +46,5 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/), 
 
 ### Removido
 - Referências a ChatGPT/Custom GPT (substituídas por skills nativas Claude)
-- Referências a Sora, Seedream, Runway, Pika, Luma como ferramentas oficiais (mantidas só como menção contextual onde aplicável)
+- Referências a Sora, Seedream, Runway, Pika, Luma como ferramentas oficiais
 - Numeração herdada do MEC (M0-M08, "Skill 1-9") em todas as skills transversais
-
-### Próximas ondas
-- **Onda 2:** Bloco 0/1/2 — 8 skills estratégicas alinhadas com M01 do curso autoral
-- **Onda 3:** Bloco 3 — 13 skills de identidade visual + nova `figma-setup` adiantada pra início do bloco
-- **Onda 4:** Bloco 4 — 8 skills atualizadas + 4 skills novas (`ad-video-creator`, `email-flows`, `carrossel-estatico`, `organico-diario`)
-- **Onda 5:** Validação cruzada + atualização do `_Mapeamento.md` no Obsidian
