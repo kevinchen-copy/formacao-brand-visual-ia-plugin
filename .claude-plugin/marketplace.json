@@ -1,0 +1,34 @@
+{
+  "name": "formacao-brand-visual-ia",
+  "owner": {
+    "name": "Kevin Chen",
+    "email": "kevin.chen1913@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace privado da Formação Branding Visual com IA — distribui o plugin oficial do curso com 38 skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "formacao-brand-visual-ia",
+      "source": "./",
+      "description": "Plugin oficial da Formação Branding Visual com IA — 38 skills que conduzem o aluno do briefing inicial até a produção de fotos, vídeos, ads, carrosséis, emails e conteúdo orgânico com IA, usando Figma + Higgsfield + Midjourney + CapCut.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Kevin Chen",
+        "email": "kevin.chen1913@gmail.com"
+      },
+      "homepage": "https://github.com/kevinchen-copy/formacao-brand-visual-ia-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "branding",
+        "identidade-visual",
+        "ia",
+        "figma",
+        "higgsfield",
+        "midjourney",
+        "produção-de-conteúdo"
+      ]
+    }
+  ]
+}
